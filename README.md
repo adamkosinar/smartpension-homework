@@ -14,7 +14,7 @@ all the configuration kept in .env file or can be provided as a command line att
 
 I am a fan of SOLID principles and Clean Code. The solution uses [tsyringe](https://github.com/microsoft/tsyringe) - a dependency injector framerwork built by microsoft. It is very useful for handling dependencies, decoupling etc.
 
-# How to run the solution#
+# How to run the solution
 
 everything is done via the npm run sequence. Feel free to checkout the package.json for more
 
