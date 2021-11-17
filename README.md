@@ -2,7 +2,7 @@ Hello,
 
 thank you for taking the time reading this and more importantly digging into the code :)
 
-#The solution
+# The solution
 
 I took more conventional approach that is somewhat inspired by the MVC pattern. The App Controller is there just to instantiate the model and make sure the right view is rendered.
 Most of the heavy lifting is done within the WebServerLog which represents the model for the logs to be parsed and rendered. It keeps a hash map where the key is the page url and the value is an
@@ -14,7 +14,7 @@ all the configuration kept in .env file or can be provided as a command line att
 
 I am a fan of SOLID principles and Clean Code. The solution uses [tsyringe](https://github.com/microsoft/tsyringe) - a dependency injector framerwork built by microsoft. It is very useful for handling dependencies, decoupling etc.
 
-#How to run the solution
+# How to run the solution#
 
 everything is done via the npm run sequence. Feel free to checkout the package.json for more
 
